@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".all_networks">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All available networks : "
+        android:textAlignment="center"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textFontWeight="150sp"/>
+
+    <TextView
+        android:id="@+id/all_networks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        app:layout_constraintTop_toBottomOf="@+id/head" />
+
+</android.support.constraint.ConstraintLayout>
